@@ -2257,7 +2257,7 @@ html {
 @media (max-width: 600px) {
   .home-original-button-one,
   .home-original-button-two {
-    font-size: 0.85rem; /* Further reduce font size */
+    font-size: 0.7rem; /* Further reduce font size */
     padding: 0.3rem 1.2rem; /* Further reduce padding */
   }
 }
@@ -2265,6 +2265,6 @@ html {
 @media (max-width: 400px) {
   .home-original-button-one,
   .home-original-button-two {
-    font-size: 0.75rem; /* Even further reduce font size */
+    font-size: 0.65rem; /* Even further reduce font size */
     padding: 0.2rem 1rem; /* Even further reduce padding */
   }}
