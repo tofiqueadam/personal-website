@@ -2152,11 +2152,11 @@ filter: drop-shadow(0 0 2px rgba(255, 255, 0, 0.7)); /* Glow effect */
    font-size: 16px; /* Font size */
    }
  }
- @media (max-width: 400px) {
+ @media (max-width: 450px) {
   .what-i-do {
-   font-size: 13px; /* Font size */
-   }
- }
+    display: none;
+  }
+}
 
 .typed-cursor {
   font-weight: bold; /* Cursor style */
@@ -2243,7 +2243,7 @@ html {
 @media (max-width: 800px) {
   .home-original-button-one,
   .home-original-button-two {
-    font-size: 0.875rem; /* Reduce font size */
+    font-size: 0.9grem; /* Reduce font size */
     padding: 0.4rem 1.6rem; /* Reduce padding */
   }
 }
@@ -2251,7 +2251,7 @@ html {
 @media (max-width: 600px) {
   .home-original-button-one,
   .home-original-button-two {
-    font-size: 0.75rem; /* Further reduce font size */
+    font-size: 0.85rem; /* Further reduce font size */
     padding: 0.3rem 1.2rem; /* Further reduce padding */
   }
 }
@@ -2259,6 +2259,6 @@ html {
 @media (max-width: 400px) {
   .home-original-button-one,
   .home-original-button-two {
-    font-size: 0.625rem; /* Even further reduce font size */
+    font-size: 0.75rem; /* Even further reduce font size */
     padding: 0.2rem 1rem; /* Even further reduce padding */
   }}
