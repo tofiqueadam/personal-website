@@ -2137,8 +2137,10 @@ filter: drop-shadow(0 0 2px rgba(255, 255, 0, 0.7)); /* Glow effect */
   color: burlywood;
 }
 .what-i-do{  
+  margin: 0;
+  display: inline; 
   color: #ddd;
-  font-size: 24px; /* Font size */
+  font-size: 22px; /* Font size */
   line-height: 1; /* Minimize line height */
   display: inline; /* Change to inline to prevent line breaks */
 }
@@ -2149,13 +2151,17 @@ filter: drop-shadow(0 0 2px rgba(255, 255, 0, 0.7)); /* Glow effect */
 }
 @media (max-width: 600px) {
   .what-i-do {
-   font-size: 16px; /* Font size */
+   font-size: 17px; /* Font size */
    }
  }
  @media (max-width: 450px) {
   .what-i-do {
     display: none;
   }
+}
+.what-i-do-container {
+  display: flex;          /* Use Flexbox for alignment */
+  align-items: center;   /* Align items vertically centered */
 }
 
 .typed-cursor {
