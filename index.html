@@ -1,0 +1,1680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tofique Adam
+  </title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/yellowfavicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/styleformodal.css" id="sectionStyles"> <!-- Section-specific stylesheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Tofique Adam" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Tofique Adam">Tofique Adam</h1>
+
+          <p class="title">Designer & Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:tofiqueadam@gmail.com" class="contact-link">tofiqueadam@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+251944441124" class="contact-link">+251 9444 1124</a>
+            </div>
+
+          </li>
+
+          
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Addis Ababa, Ethiopia</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/tofiqueadam", target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://t.me/TofiqueAdam", target="_blank" class="social-link">
+                <i class="fab fa-telegram-plane"></i>
+            </a>
+       
+      <!-- <li class="social-item">
+          <a href="#" class="social-link">
+              <i class="fab fa-behance"></i>
+          </a>
+      </li>
+         -->
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Home</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link >About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #HOME
+      -->
+      
+      <article class="about  active" data-page="home">
+
+        <header>
+          <h2 class="h2 article-title">Home</h2>
+        </header>
+        <div class="content-wrapper">
+        <section class="text-section">
+          <br /><br /><br />
+          <h1 class="greetings" id="greeting"></h1>
+          <h3 class="hello-text">I'm <span style="
+                        display: inline-block;
+                        color: #FFDB6E;
+          ">Tofique Adam</span> </h3>
+          <h3 class="what-i-do">And I'm <span class="" id="typed"></span> </h3>
+          <p class="home-paragraph-text">
+            <br />Welcome to my world, where engineering meets imagination! As a dedicated student and self-proclaimed geek, I blend design and development to craft captivating experiences. Inspired by my creative journey, I'm on a mission to turn bold ideas into reality—let's collaborate and bring your vision to life!</p>
+
+        
+          <div class="home-original-buttons">
+        <button class="home-original-button-one" data-target="contact">Contact Me</button>
+      
+        <button class="home-original-button-two" data-target="about">Know Me Better</button>
+
+</div>
+            
+      </section>
+        
+  </div>
+      </article>
+
+      
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+
+          <p>
+            I'm a passionate graphic designer and a creative problem solver. 
+            My journey in the world of design began in the 9th grade when I was first introduced to Photoshop and web development.
+             Since then, I've stuck around and continued to hone my skills. Fueled by my love for visual storytelling and innovative concepts, I blend artistry with technology to create visually stunning and user-friendly experiences. With a strong foundation in front-end development and expertise in Flutter, I thrive on innovation and enjoy pushing the boundaries of design. Whether I'm crafting eye-catching graphics or developing sleek applications, my goal is to inspire and engage users through every project I undertake. Let's create something amazing together!
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-graphic-design-.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic Design</h4>
+
+                <p class="service-item-text">
+                  I create high-quality visuals that enhance communication.               
+                 </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/video-svgrepo-com.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Video Editing</h4>
+
+                <p class="service-item-text">
+                  I edit and enhance video content to create engaging narratives.
+                                </p>
+              </div>
+
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Julian Buitenhuis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Tofique did an outstanding job on our eBook design! 
+                    His creativity and attention to detail brought our vision to life, 
+                    making the content visually engaging. The collaboration was smooth,
+                     and he was always open to feedback.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Tofique is one of the most creative individuals I have encountered. He executed the job flawlessly, delivering results that exceeded our expectations.                  </p>
+                </div>
+
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Alemayehu Tesfaye" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Alemayehu Tesfaye</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Tofique was hired to work on our Flutter project. 
+                    We were very pleased with the work done. 
+                    He has a lot of experience and is very attentive to the needs of the client.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+            
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Julian Buitenhuis</h4>
+              <time datetime="2024-04-11">11 Apr, 2024</time>
+              
+              <div data-modal-text>
+                <p>
+                  Tofique did an outstanding job on our eBook design! 
+                    His creativity and attention to detail brought our vision to life, 
+                    making the content visually engaging. The collaboration was smooth,
+                     and he was always open to feedback.
+                    </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Addis Ababa University</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                BSC. in Electrical and Computer Engineering
+              </p>
+
+            </li>
+
+            
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bahir Dar University STEM Incubation Center</h4>
+
+              <span>2016 - 2020</span>
+
+              <p class="timeline-text">
+                Highschool Diploma
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Networking Intern</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                Ethiopian Telecommunications Corporation
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software development intern</h4>
+
+              <span>2013 — 2015</span>
+
+              <p class="timeline-text">
+                Addis Software PLC
+                            </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Strartup </h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+            <p style="
+                  color: rgb(243, 243, 216);
+                  font-weight: bold;
+                  ">Development</p>
+            <div style="margin: 10px;">
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C/C++</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="75">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Flutter</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Dart</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML/CSS</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React Native</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+
+            </li>
+          </div>
+            <p style="
+                  color: white;
+                  font-weight: bold;
+                  margin-top: 35px;
+                  ">Designing and Editing</p>
+            
+            <div style="margin: 10px;">
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Adobe Photoshop</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Adobe Illustrator</h5>
+                <data value="84">84%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 84%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Adobe Indesign</h5>
+                <data value="87">87%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 87%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Canva</h5>
+                <data value="91">91%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 91%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Adobe Premiere Pro</h5>
+                <data value="76">76%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 76%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Adobe After Effects</h5>
+                <data value="69">69%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 69%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Figma</h5>
+                <data value="77">77%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 77%;"></div>
+              </div>
+
+            </li>
+          </div>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Graphic design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Graphic design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#" class="open-modal" onclick="openModal('modal1')">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolioImages/cashcognify/Screenshot 2025-02-18 111940.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CashCognify</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#" >
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Finance</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#" class="open-modal" onclick="openModal('modal2')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#" class="open-modal" onclick="openModal('modal3')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/portfolioImages/maximimpotential/ebookt.jpg" alt="eBook" loading="lazy">
+                </figure>
+                <h3 class="project-title">eBook Design</h3>
+                <p class="project-category">Graphic design</p>
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#" class="open-modal" onclick="openModal('modal5')">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/portfolioImages/illustratedbookcover/illust.jpg" alt="fundo" loading="lazy">
+                </figure>
+                <h3 class="project-title">illustrated Book Cover</h3>
+                <p class="project-category">Graphic design</p>
+              </a>
+            </li>
+
+            
+
+        
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#" class="open-modal" onclick="openModal('modal4')">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolioImages/iqexce/bookt.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">eBook Design</h3>
+
+                <p class="project-category">Graphic design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#" class="open-modal" onclick="openModal('modal6')">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolioImages/thumbnails/thumbn.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Youtube Thumbnails</h3>
+
+                <p class="project-category">Graphic design</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#" class="open-modal" onclick="openModal('modal7')">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolioImages/logodesign/logot.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Logo Design</h3>
+
+                <p class="project-category">Graphic design</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#" class="open-modal" onclick="openModal('modal8')">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolioImages/prese/prest.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Presentation Design</h3>
+
+                <p class="project-category">Graphic design</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#" class="open-modal" onclick="openModal('modal9')">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolioImages/posters/post.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Posters and Banners</h3>
+
+                <p class="project-category">Graphic design</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="graphic design">
+              <a href="#" class="open-modal" onclick="openModal('modal10')">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">others</h3>
+
+                <p class="project-category">Graphic design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#" class="open-modal" onclick="openModal('modal2')">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/portfolioImages/shootingfury/tt.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Shooting Fury</h3>
+
+                <p class="project-category">Game</p>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@tofiqueadam/state-management-solutions-comparing-provider-riverpod-bloc-and-mobx-5088a0f2e298">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/statem.png" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Development</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 11, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">State Management Solutions</h3>
+
+                  <p class="blog-text">
+                    Comparing Provider, Riverpod, BLoC, and MobX
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@tofiqueadam/why-bad-ux-kills-sales-the-hidden-cost-of-poor-design-3e955136730b">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/ux.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 11, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Why Bad UX Kills Sales</h3>
+
+                  <p class="blog-text">
+                    The Hidden Cost of Poor Design.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252230.25579820774!2d38.61332822987817!3d8.963140367935358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sAddis%20Ababa!5e0!3m2!1sen!2set!4v1739706361229!5m2!1sen!2set" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"            width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form id="contact-form" class="form" data-form>
+            <div class="input-wrapper">
+                <input type="text" name="from_name" class="form-input" placeholder="Full name" required data-form-input>
+                <input type="email" name="from_email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+            </button>
+        </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!-- Modal Structure -------------------------------------------------------------------------->
+    <!-- Modal 1 -->
+    <div id="modal1" class="modal-container-pf">
+      <div class="modal-content-pf">
+          <div class="modal-header-pf visible" id="modalHeader1">
+              <h1>CashCognify</h1>
+          </div>
+          <span class="close-pf" onclick="closeModal('modal1')">&times;</span>
+          <div class="description-content-wrapper-pf">
+              <div class="description-pf">
+                  <h2>Project Description</h2>
+                  <br />
+                  <p>This is a mobile application for visually impaired users to identify currency and read text through live camera view or image input. Developed with Flutter, it employs machine learning to classify Ethiopian currency notes and is compatible with both Android and iOS platforms.</p>
+            </p>
+            <button onclick="window.open('https://github.com/tofiqueadam/Cash_Cognify', '_blank')" style="
+            background-color: #111111; /* Green */
+            border: none;
+            color: white;
+            padding: 7px 14px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 15px 0;
+            cursor: pointer;
+            border-radius: 10px;">View Project on Github</button><br/>
+              Skills used: Flutter, Machine learning
+                </div>
+              <div class="content-pf" id="modalContent3">
+                <div class="long-text" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+                    <img src="assets/images/portfolioImages/cashcognify/cash1.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/cashcognify/cash2.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/cashcognify/cash3.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/cashcognify/cash1.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/cashcognify/cash2.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/cashcognify/cash3.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div id="modal2" class="modal-container-pf">
+    <div class="modal-content-pf">
+        <div class="modal-header-pf visible" id="modalHeader2">
+            <h1>Shooting Fury</h1>
+        </div>
+        <span class="close-pf" onclick="closeModal('modal2')">&times;</span>
+        <div class="description-content-wrapper-pf">
+            <div class="description-pf">
+                <h2>Project Description</h2>
+                <br />
+                <p> A multiplayer java game where players toss balls at each other or compete against the computer, with the goal of scoring the most hits. The project implements game programming concepts such as animation, collision detection, keyboard control, and sound effects. I focused on frame design, code structure, and computer decision-making to create an engaging user experience.</p>
+          </p>
+          <button onclick="window.open('https://github.com/tofiqueadam/ShootingFury_JavaGame', '_blank')" style="
+          background-color: #111111; /* Green */
+          border: none;
+          color: white;
+          padding: 7px 14px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 15px 0;
+          cursor: pointer;
+          border-radius: 10px;">View Project on Github</button><br/>
+            Skills used: Flutter, Machine learning
+              </div>
+            <div class="content-pf" id="modalContent3">
+              <div class="long-text" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+                  <img src="assets/images/portfolioImages/shootingfury/1.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                  <img src="assets/images/portfolioImages/shootingfury/2.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                  <img src="assets/images/portfolioImages/shootingfury/3.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                  <img src="assets/images/portfolioImages/shootingfury/4.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                  
+              </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!--------modal3 --------->  
+<div id="modal3" class="modal-container-pf">
+  <div class="modal-content-pf">
+      <div class="modal-header-pf visible" id="modalHeader3">
+          <h1 >eBook Design</h1>
+      </div>
+      <span class="close-pf" onclick="closeModal('modal3')">&times;</span>
+      <div class="description-content-wrapper-pf">
+          <div class="description-pf">
+              <h2>Project Description</h2>
+              <p>
+                <br />I was responsible for the complete design of the book, encompassing both the cover and the interior content.
+                <br /> <br />
+                My client provided a Word document containing the text and requested that I create a visually appealing design. 
+              <br /><br />
+              Skills used: Adobe Indesign, Canva, Adobe photoshop, Adobe illustrator
+              </p>
+              </div>
+              <div class="content-pf" id="modalContent3">
+                <div class="long-text" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+                    <img src="assets/images/portfolioImages/maximimpotential/ebook1.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/maximimpotential/ebook2.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/maximimpotential/ebook3.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/maximimpotential/ebook4.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/maximimpotential/ebook5.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/maximimpotential/ebook6.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/maximimpotential/ebook7.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/maximimpotential/ebook8.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/maximimpotential/ebook9.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/maximimpotential/ebook10.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+
+                </div>
+            </div>
+      </div>
+  </div>
+</div>
+<!--------modal4 ---------------------------->  
+<div id="modal4" class="modal-container-pf">
+  <div class="modal-content-pf">
+      <div class="modal-header-pf visible" id="modalHeader4">
+          <h1>eBook Design</h1>
+      </div>
+      <span class="close-pf" onclick="closeModal('modal4')">&times;</span>
+      <div class="description-content-wrapper-pf">
+          <div class="description-pf">
+              <h2>Project Description</h2>
+              <p>                <br />
+
+                I designed the entire book, including the cover and interior, based on a Word document provided by the client.
+                <br /><br /><br />
+Skills used: Adobe InDesign, Canva, Adobe Photoshop, Adobe Illustrator.
+              </p>
+              </div>
+              <div class="content-pf" id="modalContent3">
+                <div class="long-text" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+                    <img src="assets/images/portfolioImages/iqexce/book1.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/iqexce/book2.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/iqexce/book3.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/iqexce/book4.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/iqexce/book5.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/iqexce/book6.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/iqexce/book7.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/iqexce/book8.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                  
+                </div>
+            </div>
+      </div>
+  </div>
+</div>
+<!--------modal5 ----illustrated Book Cover ------------->  
+<div id="modal5" class="modal-container-pf">
+  <div class="modal-content-pf">
+      <div class="modal-header-pf visible" id="modalHeader5">
+          <h1>Illustrated Book Cover</h1>
+      </div>
+      <span class="close-pf" onclick="closeModal('modal5')">&times;</span>
+      <div class="description-content-wrapper-pf">
+          <div class="description-pf">
+              <h2>Project Description</h2>
+              <p>
+                <br />My Role: cover designer<br /><br />
+                Intricately Designed Illustrated Book Cover for a Russian Novel          <br /><br />
+              Skills used: Adobe Illustrator, Adobe Photoshop
+              </p>
+          </div>
+          <div class="content-pf" id="modalContent3">
+              <div class="long-text" style="display: flex; flex-direction: column; align-items: center;">
+                  <img src="assets/images/portfolioImages/illustratedbookcover/illus1.jpg" alt="Image 1" style="width: 94%; height: auto; display: block; margin-bottom: 10px;">
+                  <img src="assets/images/portfolioImages/illustratedbookcover/illus2.jpg" alt="Image 2" style="width: 94%; height: auto; display: block; margin-bottom: 10px;">
+                  <img src="assets/images/portfolioImages/illustratedbookcover/illus3.jpg" alt="Image 3" style="width: 94%; height: auto; display: block; margin-bottom: 10px;">
+                  <img src="assets/images/portfolioImages/illustratedbookcover/illus4.jpg" alt="Image 4" style="width: 94%; height: auto; display: block; margin-bottom: 10px;">
+                  <img src="assets/images/portfolioImages/illustratedbookcover/illus5.jpg" alt="Image 5" style="width: 94%; height: auto; display: block; margin-bottom: 10px;">
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--------modal6 ----youtube thumbnails ------------->  
+<div id="modal6" class="modal-container-pf">
+  <div class="modal-content-pf">
+      <div class="modal-header-pf visible" id="modalHeader6">
+          <h1>YouTube Thumbnails</h1>
+      </div>
+      <span class="close-pf" onclick="closeModal('modal6')">&times;</span>
+      <div class="description-content-wrapper-pf">
+          <div class="description-pf">
+              <h2>Project Description</h2>
+              <p>
+                <br />Selected YouTube thumbnails created for various content creators over the years.
+             
+                
+              <br /><br />
+              Skills used: Adobe Photoshop, Canva, Adobe Illustrator
+              </p>
+          </div>
+          <div class="content-pf" id="modalContent3">
+              <div  style="display: flex; flex-direction: column; align-items: center;">
+                  <img src="assets/images/portfolioImages/thumbnails/thumb1.jpg" alt="Image 1" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  <img src="assets/images/portfolioImages/thumbnails/thumb2.jpg" alt="Image 2" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  <img src="assets/images/portfolioImages/thumbnails/thumb3.jpg" alt="Image 3" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  <img src="assets/images/portfolioImages/thumbnails/thumb7.jpg" alt="Image 5" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  <img src="assets/images/portfolioImages/thumbnails/thumb8.jpg" alt="Image 5" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  <img src="assets/images/portfolioImages/thumbnails/thumb4.jpg" alt="Image 4" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  <img src="assets/images/portfolioImages/thumbnails/thumb5.jpg" alt="Image 5" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  <img src="assets/images/portfolioImages/thumbnails/thumb6.jpg" alt="Image 5" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--------modal7 ----Logo Design ------------->  
+<div id="modal7" class="modal-container-pf">
+  <div class="modal-content-pf">
+      <div class="modal-header-pf visible" id="modalHeader7">
+          <h1>Logo Design</h1>
+      </div>
+      <span class="close-pf" onclick="closeModal('modal7')">&times;</span>
+      <div class="description-content-wrapper-pf">
+          <div class="description-pf">
+              <h2>Project Description</h2>
+              <p>
+                <br />logo designs
+              <br /><br />
+              Skills used: Adobe photoshop, Adobe illustrator
+              </p>
+              </div>
+              <div class="content-pf" id="modalContent3">
+                <div class="long-text" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+                    <img src="assets/images/portfolioImages/logodesign/logo1.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/logodesign/logo2.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/logodesign/logo3.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/logodesign/logo4.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/logodesign/logo5.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    <img src="assets/images/portfolioImages/logodesign/logo6.jpg" alt="Image 1" style="width: 100%; height: auto; display: block;">
+                    
+                </div>
+            </div>
+      </div>
+  </div>
+</div>
+
+<!--------modal8 ---- Presentation Slides ------------->  
+<div id="modal8" class="modal-container-pf">
+  <div class="modal-content-pf">
+      <div class="modal-header-pf visible" id="modalHeader8">
+          <h1 >Presentation Slides</h1>
+      </div>
+      <span class="close-pf" onclick="closeModal('modal8')">&times;</span>
+      <div class="description-content-wrapper-pf">
+        <div class="description-pf">
+          <h2>Project Description</h2>
+          <p>
+              <br />My Role: Presentation Designer <br /><br />
+              The presentation slides are meticulously designed, with images that are perfectly aligned to enhance and support the presentation's content. <br /><br />
+          </p>
+          <button onclick="window.open('https://docs.google.com/presentation/d/16EDq-A2h-xLSCgLVIw_xjc9PgUkciris/edit?usp=sharing&ouid=112938107273974995617&rtpof=true&sd=true', '_blank')" style="
+          background-color: #5e5f0f; /* Green */
+          border: none;
+          color: white;
+          padding: 7px 14px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 10px 0;
+          cursor: pointer;
+          border-radius: 10px;">View Full Presentation</button>
+          <br /><br />
+          <p>Skills used: Microsoft PowerPoint, Google Slides, Adobe Photoshop</p>
+      </div>
+          <div class="content-pf" id="modalContent3">
+              <div  style="display: flex; flex-direction: column; align-items: center;">
+                  <img src="assets/images/portfolioImages/prese/pres1.jpg" alt="Image 1" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  <img src="assets/images/portfolioImages/prese/pres2.jpg" alt="Image 2" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  <img src="assets/images/portfolioImages/prese/pres3.jpg" alt="Image 3" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  <img src="assets/images/portfolioImages/prese/pres4.jpg" alt="Image 5" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  <img src="assets/images/portfolioImages/prese/pres5.jpg" alt="Image 5" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                   
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!--------modal9 ---- posters and banners ------------->  
+
+<div id="modal9" class="modal-container-pf">
+  <div class="modal-content-pf">
+      <div class="modal-header-pf visible" id="modalHeader9">
+          <h1>Posters and Banners</h1>
+      </div>
+      <span class="close-pf" onclick="closeModal('modal9')">&times;</span>
+      <div class="description-content-wrapper-pf">
+          <div class="description-pf">
+              <h2>Project Description</h2>
+              <p>
+                <br />Selected Posters and Banners.
+                 
+              <br /><br />
+              Skills used: Adobe Photoshop, Adobe Illustrator, Canva              </p>
+          </div>
+          <div class="content-pf" id="modalContent3">
+              <div  style="display: flex; flex-direction: column; align-items: center;">
+                <img src="assets/images/portfolioImages/posters/post.jpg" alt="Image 1" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                <img src="assets/images/portfolioImages/posters/Screenshot 2025-02-13 141337.jpg" alt="Image 2" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--------modal10 ---- others ------------->  
+<!-- <div id="modal10" class="modal-container-pf">
+  <div class="modal-content-pf">
+      <div class="modal-header-pf visible" id="modalHeader10">
+          <h1>eBook Design</h1>
+      </div>
+      <span class="close-pf" onclick="closeModal('modal10')">&times;</span>
+      <div class="description-content-wrapper-pf">
+          <div class="description-pf">
+              <h2>Project Description</h2>
+              <p>
+                <br />I was responsible for the complete design of the book, encompassing both the cover and the interior content.
+                <br /> <br />
+                Look the whole Presentation in Google slides <a href="https://docs.google.com/presentation/d/16EDq-A2h-xLSCgLVIw_xjc9PgUkciris/edit?usp=sharing&ouid=112938107273974995617&rtpof=true&sd=true">here</a>.
+                <br /><br />
+              Skills used: Microsoft PowerPoint, Google slides
+              </p>
+          </div>
+          <div class="content-pf" id="modalContent3">
+              <div  style="display: flex; flex-direction: column; align-items: center;">
+                  <img src="assets/images/portfolioImages/prese/pres1.jpg" alt="Image 1" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  <img src="assets/images/portfolioImages/prese/pres2.jpg" alt="Image 2" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  <img src="assets/images/portfolioImages/prese/pres3.jpg" alt="Image 3" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  <img src="assets/images/portfolioImages/prese/pres4.jpg" alt="Image 5" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                  <img src="assets/images/portfolioImages/prese/pres5.jpg" alt="Image 5" style="width: 100%; height: auto; display: block; margin-bottom: 30px;">
+                   
+              </div>
+          </div>
+      </div>
+  </div>
+</div> -->
+<!---------------------------------------------------------------------------------------------->
+
+<!---------------------------------------------------------------------------------------------->
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+
+
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  
+</body>
+
+</html>
