@@ -2071,6 +2071,15 @@ filter: drop-shadow(0 0 2px rgba(255, 255, 0, 0.7)); /* Glow effect */
   margin-right: 50px; /* Space between text and image */
   
 }
+.spacer {
+  height: 77px; /* Adjust the height as needed */
+}
+
+@media (max-width: 800px) {
+  .spacer {
+    height: 15px; /* Hide spacer for small screens */
+  }
+}
 .greetings{
     font-size: 25px;
     color: white;
